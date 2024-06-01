@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from "@/components/ui/button"
+import { ModeToggle } from './components/mode-toggle'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <ModeToggle />
       <div>
         <h1 className="text-3xl font-bold underline">
           Hello world!
